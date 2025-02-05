@@ -6,6 +6,7 @@ public class Turret : MonoBehaviour
     public float range = 15f;
     string enemyTag = "Enemy";
     public Transform turretHead;
+    float rotationSpeed = 5f;
 
     private void Start()
     {
@@ -40,7 +41,7 @@ public class Turret : MonoBehaviour
 
         Vector3 dir = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
-        Vector3 rotation = lookRotation.eulerAngles;
+        Vector3 rotation = Quaternion.Lerp(turretHead.rotation, lookRotation, Time.deltaTime * rotationSpeed).eulerAngles;
         turretHead.rotation = Quaternion.Euler(0f, rotation.y,  0f);
     }
     private void OnDrawGizmosSelected()
