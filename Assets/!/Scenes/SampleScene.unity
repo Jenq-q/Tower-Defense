@@ -5407,6 +5407,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4788738504170258794, guid: 7f0f77220b998de408e31a77c1960ba2, type: 3}
   m_PrefabInstance: {fileID: 1016788778}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1019874219 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4703932692914808, guid: 7191a0df8b6695d449a0f18a361bc311, type: 3}
+  m_PrefabInstance: {fileID: 1709687344}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1024155357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7722,7 +7727,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   range: 15
+  fireRate: 1
   turretHead: {fileID: 2012646772}
+  bulletPrefab: {fileID: 1627521441993660, guid: 12ea0a574b594264685afffd52fff036, type: 3}
+  firePosition: {fileID: 1019874219}
 --- !u!1001 &1644657624
 PrefabInstance:
   m_ObjectHideFlags: 0
