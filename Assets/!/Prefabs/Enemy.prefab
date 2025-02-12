@@ -121,3 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3cdba4af66645c43b6a38009663ffb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 13.4
+  rotationSpeed: 10
+  waypointThreshold: 1
+  startWaypointIndex: 0
+  endWaypointIndex: 22

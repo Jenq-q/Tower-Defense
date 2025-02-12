@@ -33,5 +33,6 @@ public class Bullet : MonoBehaviour
         GameObject effbi = (GameObject) Instantiate(bulletImpactParticle, transform.position, transform.rotation);
         Destroy(effbi, 1f);
         Destroy(gameObject);
+        Destroy(target.gameObject);
     }
 }

@@ -5151,6 +5151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4595654756050798}
+  - component: {fileID: 2245771461386163252}
   m_Layer: 0
   m_Name: FattyCannonG02
   m_TagString: Untagged
@@ -5175,6 +5176,24 @@ Transform:
   - {fileID: 4779222424309044}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2245771461386163252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875090778556656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e22710d1f86704087934f736ca6680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  range: 15
+  fireRate: 1
+  turretHead: {fileID: 4722236510932744}
+  bulletPrefab: {fileID: 1627521441993660, guid: 12ea0a574b594264685afffd52fff036, type: 3}
+  firePosition: {fileID: 4703932692914808}
 --- !u!1 &1931211189434318
 GameObject:
   m_ObjectHideFlags: 0
